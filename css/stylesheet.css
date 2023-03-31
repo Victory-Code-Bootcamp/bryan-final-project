@@ -1,18 +1,23 @@
  body {
-
-    background: invert;
-
+    padding: 3rem 1.5rem;
   }
 
  header {
-
-
-
+    text-align: center;
+    outline: thick inset rebeccapurple;
+    height: 70%;
+    /* padding: 10; */
   }
+
+ img {
+    width: 100%;
+    height: 100%;
+  }
+
  
  ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -28,11 +33,12 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 1.5rem;
   }
   
 
   li a:hover {
-    background-color:  navy;
+    background-color:  rgb(24, 24, 57);
   }
 
   
