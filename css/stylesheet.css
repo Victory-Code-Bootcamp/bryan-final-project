@@ -41,4 +41,46 @@
     background-color:  rgb(24, 24, 57);
   }
 
+  #about-middle {
+    display: flex;
+
+  }
+
+  .about-column {
+    width: 50%;
+  }
+
+  #about-h1 {
+    font: Times Arial;
+    font-size: 3.2rem;
+    font-style: italic;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  iframe {
+    width:600; 
+    height:450;      
+  }
+
+
+
+
+
   
