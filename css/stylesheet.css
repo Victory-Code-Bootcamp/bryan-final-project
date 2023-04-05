@@ -4,19 +4,22 @@
 
  header {
     text-align: center;
-    outline: thick inset rebeccapurple;
+    outline: thick ridge rebeccapurple;
     height: 70%;
+    outline-width: 1rem;
     /* padding: 10; */
   }
 
- img {
+ .header-img {
     width: 100%;
     height: 100%;
   }
 
  
  ul {
+    list-style-type: none;
     margin: 10;
+    margin-top: 20;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -31,50 +34,163 @@
     color: white;
     text-align: center;
     padding: 14px 16px;
+    font-family: 'Times New Roman', serif;
     text-decoration: none;
     font-size: 1.5rem;
+    letter-spacing: 2px;
   }
   
 
   li a:hover {
-    background-color:  rgb(24, 24, 57);
+    background-color: rgb(24, 24, 57);
   }
 
   #about-middle {
     display: flex;
+  }
+
+  .about-left {
+    width: 35%;
+    height: 100%;
+  }
+
+  .about-right {
+    width: 65%;
+  }
+
+  #index-middle {
+    display: flex;
 
   }
 
-  .about-column {
+  .index-column {
     width: 50%;
+
+  }
+
+  #index-vid {
+    width: 100%;
+    height: 100%;
   }
 
   #about-h1 {
     font: Times Arial;
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     font-style: italic;
     text-align: center;
+    letter-spacing: 5px;
+    background-color: rgb(69, 9, 25);
+    height: 100%;
+    text-shadow: 4px 4px 8px black;
+    outline-style: groove;
+  }
+
+  .wbpg-text {
+    font: 1.5rem normal;
+    background-color: rgb(69, 9, 19);
+    padding-right: 20px;
+    opacity: 2;
+    outline-style: ridge;
+  }
+
+  #email {
+    color: darkgoldenrod;
+  }
+
+  #email:hover {
+    color: burlywood;
+  }
+
+  /* .about-bg {
+    background-color: rgb(40, 10, 69);
+    padding-right: 1rem
+    width: 10%;
+  } */
+
+  #AD-enum {
+    width: 73rem;
+    padding-top: 0.5rem;
+    height: 35rem;
+    padding-left: 15px;
+   }
+
+  #about-vid-title {
+    text-align: center;
+  }
+
+  .icons {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa-medium {
+    color: beige;
+  }
+
+  .fa-linkedin {
+    color: blanchedalmond;
+    background-color: darkblue;
+  }
+
+  .fa-slack {
+    background-color: rgb(40, 10, 69);
+  }
+
+  .fa-twitter {
+    color:azure;
+    background-color: skyblue;
+  }
+
+  .fa-instagram {
+    background-color: blanchedalmond;
+    color-scheme: light;
+    color: fuchsia;
+  }
+
+  .fa-stack-overflow {
+    color: orangered;
+    background-color: aliceblue;
+  }
+
+  #contact-flex {
+    display: flex;
+  }
+
+  .contact-column {
+    width: 50%;
+  }
+
+  .form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  #full-name {
+    width: 20rem;
+  }
+
+  input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
   }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  iframe {
-    width:600; 
+  .map {
+    width:900; 
     height:450;      
   }
 

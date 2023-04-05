@@ -5,30 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/4a9c4fe8ff.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <img src="images/cover.png" alt="Logo"/>
+        <img class="header-img" src="images/cover.png" alt="Logo"/>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Form</a></li>
+            </ul>
+        </nav>
 
-    <div id="middle">
-        <div class="column">
-            <section></section>
-            <article></article>
+        <div id="index-middle">
+            <div class="index-column">
+                <section></section>
+                <article></article>
+            </div>
+            <aside class="index-column">
+                <video autoplay="true" id="index-vid">
+                    <source src="videos/stock-video.mp4" type="video/mp4"></source>
+                </video>
+            </aside>
         </div>
-        <aside class="column"></aside>
+
+        <footer>
+            <a href="https://medium.com/@bryan.suarez.sec/thm-mr-robot-ctf-e73a859c579e" class="icons fa-brands fa-medium"></a>
+            <a href="https://www.linkedin.com/in/bryan-suarez/" class="icons fa-brands fa-linkedin"></a>
+            <a href="https://app.slack.com/client/T036TPRHRUJ/C036TPSQUPL" class="icons fa-brands fa-slack"></a>
+            <a href="" class="icons fa-brands fa-twitter"></a>
+            <a href="" class="icons fa-brands fa-instagram"></a>
+            <a href="https://stackoverflow.com/" class="icons fa-brands fa-stack-overflow"></a>
+        </footer>
+
+
     </div>
-
-    <footer><i class="fa-brands fa-medium"></i></footer>
-
 </body>
 </html>
