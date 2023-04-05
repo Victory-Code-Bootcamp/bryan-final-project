@@ -5,25 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://kit.fontawesome.com/4a9c4fe8ff.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <img src="images/cover.png" alt="Logo"/>
+        <img class="header-img" src="images/cover.png" alt="Logo"/>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container"> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage </a></li>
+                <li><a href="about.html">About </a></li>
+                <li><a href="contact.html">Form </a></li>
+            </ul>
+        </nav>
 
-    <div id="about-middle">
-        <section class="about-column">
-            <h1 id="about-h1">At Your Service 24/7</h1>        
-        </section>
-        <section class="about-column"><img src="https://picsum.photos/id/684/600/400" alt=""></section>
+        <div id="about-middle">
+            <section class="about-left column">
+                <h1 id="about-h1">At Your Service 24/7
+                    <p class="wbpg-text">
+                        To our right we see the outcome of using a tool named BloodHound.
+                        It is an enumeration tool used in Window's Active Directory environments in order
+                        to find relationships between systems, identify user permissions to target, and helps
+                        you plan out your attack path against the Network. It is just one of the tools at our
+                        disposal when evaluating networks. If you would like to reach out to us in order to schedule a test please,
+                        <a id="email" href="mailto:ZDExcavation@example.com?subject=Penetration Test&body=I'd like to incquire about an evaluation.">Click Here</a>
+                    </p>
+                </h1>        
+            </section>
+            <section class="about-right column">
+                <a href="https://www.youtube.com/watch?v=yp8fw72oQvY"><img id="AD-enum" src="images/blood-hound-ADmapping.png" alt="Network Mapping produced by Bloodhound."></a>
+                <h1 id="about-vid-title">Click the picture above to see the tool in action.</h1>
+            </section>
+        </div>
+
+        <footer>
+            <a href="https://medium.com/@bryan.suarez.sec/thm-mr-robot-ctf-e73a859c579e" class="icons fa-brands fa-medium"></a>
+            <a href="https://www.linkedin.com/in/bryan-suarez/" class="icons fa-brands fa-linkedin"></a>
+            <a href="https://app.slack.com/client/T036TPRHRUJ/C036TPSQUPL" class="icons fa-brands fa-slack"></a>
+            <a href="" class="icons fa-brands fa-twitter"></a>
+            <a href="" class="icons fa-brands fa-instagram"></a>
+            <a href="https://stackoverflow.com/" class="icons fa-brands fa-stack-overflow"></a>
+        </footer>
+
+
+
     </div>
 
 
