@@ -1,216 +1,265 @@
- body {
-    padding: 3rem 1.5rem;
-  }
+body {
+  padding: 6rem 4rem;
+}
 
- header {
-    text-align: center;
-    outline: thick ridge rebeccapurple;
-    height: 70%;
-    outline-width: 1rem;
-    /* padding: 10; */
-  }
+header {
+  text-align: center;
+  outline: thick ridge rebeccapurple;
+  height: 60%;
+  outline-width: 1rem;
+  margin-bottom: 1.5rem;
+}
 
- .header-img {
-    width: 100%;
-    height: 100%;
-  }
+.header-img {
+  width: 100%;
+  height: 100%;
+}
 
- 
- ul {
-    list-style-type: none;
-    margin: 10;
-    margin-top: 20;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+nav {
+  margin-bottom: 1.7rem;
+}
 
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    font-family: 'Times New Roman', serif;
-    text-decoration: none;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-  }
-  
+ul {
+  list-style-type: none;
+  margin: 10;
+  margin-top: 20;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-  li a:hover {
-    background-color: rgb(24, 24, 57);
-  }
+li {
+  float: left;
+}
 
-  #about-middle {
-    display: flex;
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "Times New Roman", serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
 
-  .about-left {
-    width: 35%;
-    height: 100%;
-  }
+li a:hover {
+  background-color: rgb(24, 24, 57);
+}
 
-  .about-right {
-    width: 65%;
-  }
+#about-middle {
+  display: flex;
+}
 
-  #index-middle {
-    display: flex;
+.about-left {
+  width: 35%;
+  height: 100%;
+}
 
-  }
+.about-right {
+  width: 65%;
+}
 
-  .index-column {
-    width: 50%;
+#index-middle {
+  display: flex;
+}
 
-  }
+.index-column {
+  width: 50%;
+}
 
-  #index-vid {
-    width: 100%;
-    height: 100%;
-  }
+#index-vid {
+  width: 95%;
+  height: 100%;
+}
 
-  #about-h1 {
-    font: Times Arial;
-    font-size: 3.5rem;
-    font-style: italic;
-    text-align: center;
-    letter-spacing: 3px;
-    background-color: rgb(69, 9, 25);
-    height: 100%;
-    text-shadow: 4px 4px 8px black;
-    outline-style: groove;
-  }
+#about-h1 {
+  font: Times Arial;
+  font-size: 3.5rem;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: rgb(69, 9, 25);
+  height: 100%;
+  text-shadow: 4px 4px 8px black;
+  outline-style: groove;
+}
 
-  .wbpg-text {
-    font: 1.6rem normal;
-    background-color: rgb(69, 9, 19);
-    padding-right: 20px;
-    opacity: 2;
-    outline-style: ridge;
-    height: 23rem;
-    text-align: center;
-    margin-top: 1rem;
-  }
+.wbpg-text {
+  font: 1.6rem normal;
+  background-color: rgb(69, 9, 19);
+  padding-right: 20px;
+  opacity: 2;
+  outline-style: ridge;
+  height: 23rem;
+  text-align: center;
+  margin-top: 1rem;
+}
 
-  #email {
-    color: darkgoldenrod;
-  }
+#email {
+  color: darkgoldenrod;
+}
 
-  #email:hover {
-    color: burlywood;
-  }
+#email:hover {
+  color: burlywood;
+}
 
-  /* .about-bg {
+/* .about-bg {
     background-color: rgb(40, 10, 69);
     padding-right: 1rem
     width: 10%;
   } */
 
-  #AD-enum {
-    width: 73rem;
-    padding-top: 0.5rem;
-    height: 35rem;
-    padding-left: 15px;
-   }
+#AD-enum {
+  width: 73rem;
+  padding-top: 0.5rem;
+  height: 35rem;
+  padding-left: 15px;
+}
 
-  #about-vid-title {
-    text-align: center;
-  }
+#about-vid-title {
+  text-align: center;
+}
 
-  .icons {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
+.icons {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
-  .fa-medium {
-    color: beige;
-  }
+.fa-medium {
+  color: beige;
+}
 
-  .fa-linkedin {
-    color: blanchedalmond;
-    background-color: darkblue;
-  }
+.fa-linkedin {
+  color: blanchedalmond;
+  background-color: darkblue;
+}
 
-  .fa-slack {
-    background-color: rgb(40, 10, 69);
-  }
+.fa-slack {
+  background-color: rgb(40, 10, 69);
+}
 
-  .fa-twitter {
-    color:azure;
-    background-color: skyblue;
-  }
+.fa-twitter {
+  color: azure;
+  background-color: skyblue;
+}
 
-  .fa-instagram {
-    background-color: blanchedalmond;
-    color-scheme: light;
-    color: fuchsia;
-  }
+.fa-instagram {
+  background-color: blanchedalmond;
+  color-scheme: light;
+  color: fuchsia;
+}
 
-  .fa-stack-overflow {
-    color: orangered;
-    background-color: aliceblue;
-  }
+.fa-stack-overflow {
+  color: orangered;
+  background-color: aliceblue;
+}
 
-  #contact-flex {
-    display: flex;
-  }
+#contact-flex {
+  display: flex;
+}
 
-  .contact-column {
-    width: 50%;
-  }
+.contact-column {
+  width: 50%;
+}
 
-  #contact-h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-  }
+#contact-h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 
-  .form-container {
-    border-radius: 5px;
-    background-color: rebeccapurple;
-    padding: 10px;
-    box-sizing: border-box;
-    outline: ridge;
-    margin-right: 30px;
-    margin-bottom: 30px;
-  }
+.form-container {
+  border-radius: 5px;
+  background-color: rebeccapurple;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: ridge;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
 
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
+#subject {
+  height: 150px;
+}
 
-  #subject {
-    height: 150px;
-  }
+#severity:hover {
+  cursor: pointer;
+}
 
-  .subject-text {
-    text-align: left;
-  }
+.contact-button {
+  width: 100%;
+  height: 4rem;
+  background-color: slateblue;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
-  .map {
-    width:900; 
-    height:600;
-    margin-top: 4rem;
-  }
+.contact-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.4s;
+}
 
+.map {
+  width: 900;
+  height: 600;
+  margin-top: 4rem;
+}
 
+.fa-brands:hover {
+  opacity: 0.7;
+}
 
+#submit-confirmation {
+  background-color: rebeccapurple;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  height: 20rem;
+  outline-style: inset;
+  outline-width: 0.8rem;
+  outline-color: darkmagenta;
+}
 
+#submit-h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 0.8rem;
+}
 
-  
+#submit-h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.return-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+  text-decoration: none;
+}
+
+.return-click:hover {
+  color: saddlebrown;
+}
