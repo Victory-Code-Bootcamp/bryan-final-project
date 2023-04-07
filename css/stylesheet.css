@@ -78,7 +78,7 @@
     font-size: 3.5rem;
     font-style: italic;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     background-color: rgb(69, 9, 25);
     height: 100%;
     text-shadow: 4px 4px 8px black;
@@ -86,11 +86,14 @@
   }
 
   .wbpg-text {
-    font: 1.5rem normal;
+    font: 1.6rem normal;
     background-color: rgb(69, 9, 19);
     padding-right: 20px;
     opacity: 2;
     outline-style: ridge;
+    height: 23rem;
+    text-align: center;
+    margin-top: 1rem;
   }
 
   #email {
@@ -164,34 +167,46 @@
     width: 50%;
   }
 
+  #contact-h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
   .form-container {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    background-color: rebeccapurple;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: ridge;
+    margin-right: 30px;
+    margin-bottom: 30px;
   }
 
-  #full-name {
-    width: 20rem;
-  }
 
-  input[type="text"], select, textarea {
+  input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-
   }
 
+  #subject {
+    height: 150px;
+  }
 
-
+  .subject-text {
+    text-align: left;
+  }
 
   .map {
     width:900; 
-    height:450;      
+    height:600;
+    margin-top: 4rem;
   }
 
 
