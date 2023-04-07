@@ -1,65 +1,108 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <script src="https://kit.fontawesome.com/4a9c4fe8ff.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <script
+      src="https://kit.fontawesome.com/4a9c4fe8ff.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <img class="header-img" src="images/cover.png" alt="Logo"/> 
+      <img class="header-img" src="images/cover.png" alt="Logo" />
     </header>
 
-    
-        <nav>
-            <ul>
-                <li><a href="index.html">Homepage</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Form</a></li>
-            </ul>
-        </nav>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Form</a></li>
+      </ul>
+    </nav>
 
+    <div id="contact-flex">
+      <div class="contact-column form">
+        <h1 id="contact-h1">Submit Ticket</h1>
+        <div class="form-container">
+          <form>
+            <label for="full-name">Full Name</label>
+            <input
+              type="text"
+              id="full-name"
+              placeholder="Enter your First and Last Name"
+            />
 
-        <div id="contact-flex">
-            <div class="contact-column form">
-                <h1 id="contact-h1">Submit Ticket</h1>
-                <div class="form-container">
-                    <form>
-                      <label for="full-name">Full Name</label>
-                      <input type="text" id="full-name" placeholder="Enter your First and Last Name">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              placeholder="Enter your email address"
+            />
 
-                      <label for="Department">Department</label>
-                      <input type="text" id="Department" placeholder="Enter your Department">
+            <label for="Department">Department</label>
+            <input
+              type="text"
+              id="Department"
+              placeholder="Enter your Department"
+            />
 
-                      <label for="subject" class="subject-text">Subject</label>
-                      <input type="text" id="subject" placeholder="Details">
+            <label for="subject" class="subject-text">Subject</label>
+            <textarea
+              id="subject"
+              name="textarea"
+              rows="30"
+              placeholder="Details"
+            ></textarea>
+            <!-- <input type="text" id="subject" placeholder="Details" /> -->
 
-                      <label for="Severity">Severity</label>
-                      <select name="Severity" id="Severity">
-                        <option value="Tier 1">Tier 1 (High)</option>
-                        <option value="Tier 2">Tier 2 (Medium)</option>
-                        <option value="Tier 3">Tier 3 (Low)</option>
-                      </select>
-                    </form>
-                </div>
-            </div>
-            <iframe class="contact-column map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54456.887594770364!2d-147.47843544453093!3d64.75244568410974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x51324d51d5c5f2b9%3A0xda1a7714d9d98964!2sNorth%20Pole%2C%20AK%2099705!5e0!3m2!1sen!2sus!4v1680262159973!5m2!1sen!2sus"></iframe>
-            
+            <label for="severity">Severity</label>
+            <select name="severity" id="severity">
+              <option value="Tier 1">Tier 1 (High)</option>
+              <option value="Tier 2">Tier 2 (Medium)</option>
+              <option value="Tier 3">Tier 3 (Low)</option>
+            </select>
+            <button
+              class="contact-button"
+              type="submit"
+              formaction="submit.html"
+            >
+              Submit
+            </button>
+          </form>
         </div>
-    
-
+      </div>
+      <iframe
+        class="contact-column map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54456.887594770364!2d-147.47843544453093!3d64.75244568410974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x51324d51d5c5f2b9%3A0xda1a7714d9d98964!2sNorth%20Pole%2C%20AK%2099705!5e0!3m2!1sen!2sus!4v1680262159973!5m2!1sen!2sus"
+      ></iframe>
+    </div>
 
     <footer>
-        <a target="_blank" href="https://medium.com/@bryan.suarez.sec/thm-mr-robot-ctf-e73a859c579e" class="icons fa-brands fa-medium"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/bryan-suarez/" class="icons fa-brands fa-linkedin"></a>
-        <a target="_blank" href="https://app.slack.com/client/T036TPRHRUJ/C036TPSQUPL" class="icons fa-brands fa-slack"></a>
-        <a target="_blank" href="" class="icons fa-brands fa-twitter"></a>
-        <a target="_blank" href="" class="icons fa-brands fa-instagram"></a>
-        <a target="_blank" href="https://stackoverflow.com/" class="icons fa-brands fa-stack-overflow"></a>
+      <a
+        target="_blank"
+        href="https://medium.com/@bryan.suarez.sec/thm-mr-robot-ctf-e73a859c579e"
+        class="icons fa-brands fa-medium"
+      ></a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/bryan-suarez/"
+        class="icons fa-brands fa-linkedin"
+      ></a>
+      <a
+        target="_blank"
+        href="https://app.slack.com/client/T036TPRHRUJ/C036TPSQUPL"
+        class="icons fa-brands fa-slack"
+      ></a>
+      <a target="_blank" href="" class="icons fa-brands fa-twitter"></a>
+      <a target="_blank" href="" class="icons fa-brands fa-instagram"></a>
+      <a
+        target="_blank"
+        href="https://stackoverflow.com/"
+        class="icons fa-brands fa-stack-overflow"
+      ></a>
     </footer>
-
-    
-</body>
+  </body>
 </html>
